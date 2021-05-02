@@ -7,13 +7,19 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 public class LinkedElement<T> {
     
     var value: T
-    var next: LinkedElement?
-    weak var previous: LinkedElement?
+    var next: LinkedElement<T>?
+    weak var previous: LinkedElement<T>?
     
     init (value: T) {
         self.value = value
     }
     
+}
+
+extension LinkedElement: Equatable where T: Equatable {
+    public static func == (lhs: LinkedElement<T>, rhs: LinkedElement<T>) -> Bool {
+        return lhs.value == rhs.value
+    }
 }
 
 //Linked List realization
@@ -66,7 +72,8 @@ public class LinkedList<T> {
         tail = nil
     }
     
-    public func remove(element: LinkedElement<T>) {
+    public func remove(element: LinkedElement<T>?) {
+        guard let element = element else { return }
         let previous = element.previous
         let next = element.next
         
@@ -104,6 +111,10 @@ let myLinkedList = LinkedList<String>()
 myLinkedList.append(element: "First")
 myLinkedList.append(element: "Second")
 myLinkedList.append(element: "Third")
+//myLinkedList.remove(element: myLinkedList.last)
+//myLinkedList.remove(element: myLinkedList.last)
+//myLinkedList.remove(element: myLinkedList.last)
+//myLinkedList.remove(element: myLinkedList.first)
 print(myLinkedList)
 
 //Queue realization on previous Linked List
