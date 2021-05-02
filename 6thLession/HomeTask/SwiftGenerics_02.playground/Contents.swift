@@ -107,6 +107,13 @@ extension LinkedList: CustomStringConvertible {
     }
 }
 
+extension LinkedList {
+    convenience init(array: [T]) {
+        self.init()
+        array.forEach { append(element: $0)}
+    }
+}
+
 let myLinkedList = LinkedList<String>()
 myLinkedList.append(element: "First")
 myLinkedList.append(element: "Second")
@@ -116,6 +123,9 @@ myLinkedList.append(element: "Third")
 //myLinkedList.remove(element: myLinkedList.last)
 //myLinkedList.remove(element: myLinkedList.first)
 print(myLinkedList)
+let myArray = [1,2,3,4,5]
+let mySecondLinkedList = LinkedList(array: myArray)
+print(mySecondLinkedList)
 
 //Queue realization on previous Linked List
 public struct Queue<T> {
