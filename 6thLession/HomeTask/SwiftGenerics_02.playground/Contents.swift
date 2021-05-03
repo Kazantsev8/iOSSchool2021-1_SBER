@@ -23,12 +23,12 @@ extension LinkedElement: Equatable where T: Equatable {
 }
 
 //Linked List realization
-public class LinkedList<T> {
+public final class LinkedList<T> {
     
     public typealias Element = T
     
-    private var head: LinkedElement<Element>?
-    private var tail: LinkedElement<Element>?
+    private(set) var head: LinkedElement<Element>?
+    public var tail: LinkedElement<Element>?
     
     public var isEmpty: Bool {
         return head == nil
@@ -53,6 +53,25 @@ public class LinkedList<T> {
         }
         tail = newElement
     }
+    
+    public func append(linkedElement: LinkedElement<T>) {
+        let newElement = linkedElement
+        if let lastElement = last {
+            newElement.previous = lastElement
+            lastElement.next = newElement
+        } else {
+            head = newElement
+        }
+    }
+    
+    public func append(linkedList: LinkedList<T>) {
+        var element = linkedList.head
+        while let linkedElement = element {
+            append(element: linkedElement.value)
+            element = linkedElement.next
+        }
+    }
+    
     
     public func pushElementAt(index: Int) -> LinkedElement<T>? {
         if index >= 0 {
@@ -126,6 +145,7 @@ print(myLinkedList)
 let myArray = [1,2,3,4,5]
 let mySecondLinkedList = LinkedList(array: myArray)
 print(mySecondLinkedList)
+
 
 //Queue realization on previous Linked List
 public struct Queue<T> {
