@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0DFCAFFB-01EE-4D20-A3BF-2511B8819AB8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05D3F2A7-069E-4F89-AFD1-08234E4928A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36B1CCB2-EDA3-42D2-BA3D-79A4DA5B9E25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "startButtonElastic"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - 8166f40e34f72b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.getter : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - b9a82cd773aac868"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; _1thLessionHomeTask.ElasticButton in _1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.getter : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - 8166f40e34f72b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.setter : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - 8166f40e34f72cc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.modify : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - cfbf7e435dcce44a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.modify : _1thLessionHomeTask.ElasticButton with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - 78ab5aef254600a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _1thLessionHomeTask.HomeWork13_Animations_ViewController"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "281">
+               </Location>
+               <Location
+                  uuid = "63F0519A-5F83-4A8B-BA03-E78CA8652C55 - 98388ff9acf43196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_1thLessionHomeTask.HomeWork13_Animations_ViewController&gt;"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F1E2DFF-9F85-4252-A54E-8258A5214341"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "startButtonElastic"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "HomeWork13_Animations_ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - 8166f40e34f72b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.getter : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - b9a82cd773aac868"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; _1thLessionHomeTask.ElasticButton in _1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.getter : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - 8166f40e34f72b66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.setter : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - 8166f40e34f72cc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.modify : _1thLessionHomeTask.ElasticButton"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - cfbf7e435dcce44a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.startButtonElastic.modify : _1thLessionHomeTask.ElasticButton with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - 78ab5aef254600a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _1thLessionHomeTask.HomeWork13_Animations_ViewController"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "281">
+               </Location>
+               <Location
+                  uuid = "48E83000-E7EA-49E4-8792-777F8DBEF129 - 98388ff9acf43196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_1thLessionHomeTask.HomeWork13_Animations_ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_1thLessionHomeTask.HomeWork13_Animations_ViewController&gt;"
+                  moduleName = "11thLessionHomeTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/13thLession/HomeTask/11thLessionHomeTask/11thLessionHomeTask/Controller/HomeWork13_Animations_ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89CDF0AC-B460-4381-B3EC-A70311228CB5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/View/CustomView/ElasticButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "clicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E8676E7-A214-44F5-B83F-E958F11BBA8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/View/CustomView/ElasticButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "clicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEB81380-94AA-4212-9F0D-818B987E87B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/View/CustomView/ElasticView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "setupComponents()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A94EEBE3-7D0B-4CB8-B42E-CAE9DFF13058"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "11thLessionHomeTask/View/CustomView/ElasticView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "setupComponents()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
