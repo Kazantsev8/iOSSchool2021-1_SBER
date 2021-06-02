@@ -8,68 +8,91 @@
 import UIKit
 
 class Donut: UIView {
-    
+    //MARK: - VIEWS AND PROPERTIES
+    //picture, that fill donut
     let image: UIImage = {
         let image = UIImage(imageLiteralResourceName: "DonutVectorBackground")
         return image
     }()
-    var circleRadius: CGFloat = 0
-    lazy var donut = CAShapeLayer()
-    lazy var innerLine = CAShapeLayer()
-    
-    func createCircle(bounds: CGRect) {
-        let circle: CAShapeLayer = {
-            let lineWidth = 60
-            let path = UIBezierPath(arcCenter: CGPoint(x: bounds.maxX/2, y: bounds.maxY/2),
-                                    radius: CGFloat(Int(bounds.maxX)/2 - lineWidth),
-                                    startAngle: CGFloat(0),
-                                    endAngle: CGFloat(Double.pi * 2),
-                                    clockwise: true)
-            
-            let shape = CAShapeLayer()
-            shape.path = path.cgPath
-            shape.lineWidth = 60
-            circleRadius = CGFloat(Int(bounds.maxX)/2 - lineWidth/2)
-            return shape
-        }()
-        let dColor = UIColor(patternImage: image)
-        circle.strokeColor = dColor.cgColor
-        circle.fillColor = UIColor.clear.cgColor
-        donut = circle
-        
-        let innerCircle: CAShapeLayer = {
-            let path = UIBezierPath(arcCenter: CGPoint(x: bounds.maxX/2, y: bounds.maxY/2),
-                                    radius: CGFloat(60),
-                                    startAngle: CGFloat(0),
-                                    endAngle: CGFloat(Double.pi * 2),
-                                    clockwise: true)
-            let shape = CAShapeLayer()
-            shape.path = path.cgPath
-            return shape
-        }()
-        innerCircle.fillColor = UIColor.clear.cgColor
-        innerLine = innerCircle
-        
+    //radius of external circle of donut
+    var externalCircleRadius: CGFloat = 0
+    //radius of internal circle of donut
+    var internalCircleRadius: CGFloat = 0
+    //donut
+    lazy var donutLayer: CAShapeLayer = {
+        let path = UIBezierPath(arcCenter: CGPoint(x: self.bounds.midX,
+                                                   y: self.bounds.midY),
+                                radius: internalCircleRadius + ((externalCircleRadius - internalCircleRadius) / 2),
+                                startAngle: CGFloat(0),
+                                endAngle: CGFloat(Double.pi * 2),
+                                clockwise: true)
+        let layer = CAShapeLayer()
+        layer.path = path.cgPath
+        layer.fillColor = UIColor.clear.cgColor
+        layer.lineWidth = externalCircleRadius - internalCircleRadius
+        layer.strokeColor = UIColor(patternImage: image).cgColor
+        return layer
+    }()
+    //center of donut
+    lazy var holeLayer: CAShapeLayer = {
+        let path = UIBezierPath(arcCenter: CGPoint(x: self.bounds.midX,
+                                                   y: self.bounds.midY),
+                                radius: internalCircleRadius,
+                                startAngle: CGFloat(0),
+                                endAngle: CGFloat(Double.pi * 2),
+                                clockwise: true)
+        let layer = CAShapeLayer()
+        layer.path = path.cgPath
+        layer.fillColor = UIColor.clear.cgColor
+        return layer
+    }()
+    //MARK: - INITIALIZERS
+    //custom init for main init
+    convenience init(x: CGFloat,
+                     y: CGFloat,
+                     externalCircleRadius: CGFloat,
+                     internalCircleRadius: CGFloat) {
+        self.init(frame: CGRect(x: x - externalCircleRadius,
+                                y: y - externalCircleRadius,
+                                width: externalCircleRadius * 2,
+                                height: externalCircleRadius * 2))
+        self.externalCircleRadius = externalCircleRadius
+        self.internalCircleRadius = internalCircleRadius
+        setupView()
     }
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        backgroundColor = .clear
-        createCircle(bounds: bounds)
-        layer.addSublayer(donut)
-        layer.addSublayer(innerLine)
+    //MARK: - METHODS
+    //setup view
+    private func setupView() {
+        self.backgroundColor = .clear
+        self.layer.addSublayer(donutLayer)
+        self.layer.addSublayer(holeLayer)
     }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
-        let view = super.hitTest(point, with: event)
-        if view === self {
-            return nil
+    //checking touch inside center of donut
+    private func touchIn(point: CGPoint) -> Bool {
+        guard let path = holeLayer.path else { return false }
+        if path.contains(point) {
+            return false
         }
-        return view
+        return true
     }
+    //overriding hit test
+    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+        guard isUserInteractionEnabled else { return nil }
+        guard !isHidden else { return nil }
+        guard touchIn(point: point) else { return nil }
+        
+        return super.hitTest(point, with: event)
+    }
+    
+//    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+//        guard isUserInteractionEnabled else { return nil }
+//        guard !isHidden else { return nil }
+//        guard pointInsideDonut(point: point) else { return nil }
+//        let view = super.hitTest(point, with: event)
+//        if view === self {
+//            return nil
+//        }
+//        return view
+//    }
     
 }

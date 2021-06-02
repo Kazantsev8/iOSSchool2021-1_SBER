@@ -9,27 +9,26 @@ import UIKit
 
 final class ViewController: UIViewController {
     
-    var buttonRadius: CGFloat?
+    //MARK: - VIEWS
+    //button under donut
     lazy var responderButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: view.frame.midX - buttonRadius! / 2,
-                                            y: view.frame.midY - buttonRadius! / 2,
-                                            width: buttonRadius!,
-                                            height: buttonRadius!))
-        button.backgroundColor = .clear
-        button.layer.cornerRadius = buttonRadius! / 2
+        let button = UIButton(frame: CGRect(x: self.view.bounds.midX - donutView.internalCircleRadius,
+                                            y: self.view.bounds.midY - donutView.internalCircleRadius,
+                                            width: donutView.internalCircleRadius * 2,
+                                            height: donutView.internalCircleRadius * 2))
+        button.backgroundColor = .systemGreen
         button.addTarget(self, action: #selector(responderButtonTapped), for: .touchUpInside)
         return button
     }()
-    
+    //donut
     lazy var donutView: Donut = {
-        let donut = Donut(frame: CGRect(x: view.frame.midX - 150,
-                                        y: view.frame.midY - 150,
-                                        width: 300,
-                                        height: 300))
-        buttonRadius = donut.circleRadius
+        let donut = Donut(x: self.view.bounds.midX,
+                          y: self.view.bounds.midY,
+                          externalCircleRadius: self.view.bounds.midX ,
+                          internalCircleRadius: self.view.bounds.midX * 0.5)
         return donut
     }()
-    
+    //view, that pop up when touch inside donut
     lazy var popUpView: PopUpView = {
         let popUpView = PopUpView(frame: CGRect(origin: CGPoint(x: view.frame.midX - (view.frame.maxX - 40) / 2,
                                                                 y: view.frame.midY - 50),
@@ -39,6 +38,7 @@ final class ViewController: UIViewController {
         return popUpView
     }()
     
+    //MARK: - VIEW CONTROLLER LIFECYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .cyan
@@ -46,14 +46,10 @@ final class ViewController: UIViewController {
         view.addSubview(responderButton)
         view.addSubview(popUpView)
         view.insertSubview(responderButton, belowSubview: donutView)
-        //let tapGesture = UITapGestureRecognizer(target: self, action: #selector(responderButtonTapped))
-        //self.responderButton.addGestureRecognizer(tapGesture)
     }
     
+    //MARK: - METHODS
     @objc func responderButtonTapped() {
-        //let touchPoint = UIGestureRecognizer().location(in: responderButton)
-        
-        
         if popUpView.isHidden {
             popUpView.activate()
         }
