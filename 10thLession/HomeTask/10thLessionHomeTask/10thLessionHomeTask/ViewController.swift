@@ -16,7 +16,7 @@ final class ViewController: UIViewController {
                                             y: self.view.bounds.midY - donutView.internalCircleRadius,
                                             width: donutView.internalCircleRadius * 2,
                                             height: donutView.internalCircleRadius * 2))
-        button.backgroundColor = .systemGreen
+        button.backgroundColor = .clear
         button.addTarget(self, action: #selector(responderButtonTapped), for: .touchUpInside)
         return button
     }()
