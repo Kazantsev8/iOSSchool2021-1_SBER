@@ -17,5 +17,4 @@ protocol HW17VKNetworkServiceProtocol {
     func authorize(userId: String, accessToken: String, completion: @escaping (Bool) -> ())
     func usersGet(completion: @escaping (HW17GetUserInfoApiResponse) -> ())
     func loadImage(imageUrl: String, completion: @escaping (Data?) -> ())
-    func clearSession()
 }

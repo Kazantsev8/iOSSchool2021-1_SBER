@@ -15,7 +15,7 @@ enum HW17StaticInfo {
     
     enum VKMethods {
         static let authorize = "https://oauth.vk.com/authorize/"
-        static let usersGet = "https:/api.vk.com/method/users.get"
+        static let usersGet = "https://api.vk.com/method/users.get"
     }
     
     enum VKParameters {

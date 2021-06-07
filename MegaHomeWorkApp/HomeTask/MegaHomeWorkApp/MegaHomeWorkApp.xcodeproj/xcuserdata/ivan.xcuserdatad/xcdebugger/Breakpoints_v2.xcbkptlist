@@ -430,7 +430,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C4C82085-662C-438F-A18B-35D9BA4898ED"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
@@ -461,88 +461,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3A7DB26B-B96F-4C38-8A7C-52FFE29B2803"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "webView(_:decidePolicyFor:decisionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3A7DB26B-B96F-4C38-8A7C-52FFE29B2803 - 22ad70288639fd5e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #3 (Swift.Bool) -&gt; () in MegaHomeWorkApp.HW17GitHubAuthViewController.webView(_: __C.WKWebView, decidePolicyFor: __C.WKNavigationResponse, decisionHandler: (__C.WKNavigationResponsePolicy) -&gt; ()) -&gt; ()"
-                  moduleName = "MegaHomeWorkApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "63">
-               </Location>
-               <Location
-                  uuid = "3A7DB26B-B96F-4C38-8A7C-52FFE29B2803 - e1884ffb40de28b5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;MegaHomeWorkApp.HW17usersGetResponse, MegaHomeWorkApp.HW17NetworkServiceError&gt;) -&gt; () in closure #3 (Swift.Bool) -&gt; () in MegaHomeWorkApp.HW17GitHubAuthViewController.webView(_: __C.WKWebView, decidePolicyFor: __C.WKNavigationResponse, decisionHandler: (__C.WKNavigationResponsePolicy) -&gt; ()) -&gt; ()"
-                  moduleName = "MegaHomeWorkApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "119"
-                  endingLineNumber = "119"
-                  offsetFromSymbolStart = "209">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4B30FA9F-4B2C-447C-8E08-4F67676BD8B1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "usersGet(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "67DBBD4A-C05B-47CF-9B5A-63ED075395E9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "usersGet(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
@@ -554,7 +474,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 6f232ea760106c65"
+                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 6f232ea760106ca7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -564,12 +484,12 @@
                   urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "2098">
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "2566">
                </Location>
                <Location
-                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 22ad70288639fd3f"
+                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 22ad70288639fd5e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -579,9 +499,9 @@
                   urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "34">
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -590,7 +510,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "83F988C4-ABB4-45E6-8C72-F25ED9B9D7D0"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
@@ -599,54 +519,6 @@
             startingLineNumber = "116"
             endingLineNumber = "116"
             landmarkName = "webView(_:decidePolicyFor:decisionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ED225283-3AF9-4498-8930-770502B03698"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "authorize(userId:accessToken:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7CA2A569-8224-4EE4-B8B4-353BF9981461"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "authorize(userId:accessToken:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CF67E9BA-562C-47E4-AB80-CD547757770F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "authorize(userId:accessToken:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -669,15 +541,159 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F5015D09-16BD-48ED-A5F4-59939344D2FD"
+            uuid = "AB712A8E-1E3E-43F6-B8BC-F1F349830EC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "usersGet(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "820CC2BD-77BD-4428-B0EC-8771BB28A1ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "usersGet(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5447F927-BC12-4FE9-91CE-B3E2BF7DF871"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "usersGet(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D41FF111-D912-4ED9-8CE9-187C8D532E89"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "usersGet(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B87C1C15-1D07-488D-AF97-B6B9E0790AB0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "usersGet(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "webView(_:decidePolicyFor:decisionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97 - 6f232ea760106d38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MegaHomeWorkApp.HW17GitHubAuthViewController.webView(_: __C.WKWebView, decidePolicyFor: __C.WKNavigationResponse, decisionHandler: (__C.WKNavigationResponsePolicy) -&gt; ()) -&gt; ()"
+                  moduleName = "MegaHomeWorkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "2776">
+               </Location>
+               <Location
+                  uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97 - 3cfd4bb981e6e510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Result&lt;MegaHomeWorkApp.Response, MegaHomeWorkApp.HW17NetworkServiceError&gt;) -&gt; () in MegaHomeWorkApp.HW17GitHubAuthViewController.webView(_: __C.WKWebView, decidePolicyFor: __C.WKNavigationResponse, decisionHandler: (__C.WKNavigationResponsePolicy) -&gt; ()) -&gt; ()"
+                  moduleName = "MegaHomeWorkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1135550-E8BB-44AA-9299-8C6A2961BD4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "webView(_:decidePolicyFor:decisionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10002F4E-4A3B-46E8-AA40-8266ED4853D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW17MODULE/Services/HW17VKNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "usersGet(completion:)"
             landmarkType = "7">
          </BreakpointContent>

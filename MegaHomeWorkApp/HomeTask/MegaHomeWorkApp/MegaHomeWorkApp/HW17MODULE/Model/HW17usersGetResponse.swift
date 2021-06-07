@@ -7,15 +7,15 @@
 
 import Foundation
 
-struct Response: Decodable {
+struct Response: Codable {
     let response: [HW17usersGetResponse]
 }
 
-struct HW17usersGetResponse: Decodable {
-    let first_name: String
-    let id: Int
-    let last_name: String
-    let can_access_closed: Bool
-    let is_closed: Bool
-    let photo_200: String
+struct HW17usersGetResponse: Codable {
+    let first_name: String?
+    let id: Int?
+    let last_name: String?
+    let can_access_closed: Bool?
+    let is_closed: Bool?
+    let photo_200: String?
 }

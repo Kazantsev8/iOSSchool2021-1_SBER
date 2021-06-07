@@ -10,4 +10,9 @@ import Foundation
 struct HW17VKAuthorizeResponse: Decodable {
     var accessToken: String
     var userId: String
+    
+    init(accessToken: String, userId: String) {
+        self.accessToken = accessToken
+        self.userId = userId
+    }
 }

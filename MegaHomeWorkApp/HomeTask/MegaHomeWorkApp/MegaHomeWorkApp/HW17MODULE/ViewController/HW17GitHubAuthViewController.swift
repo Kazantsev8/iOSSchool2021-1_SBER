@@ -37,7 +37,7 @@ class HW17GitHubAuthViewController: UIViewController {
     
     init(networkService: HW17VKNetworkServiceProtocol) {
         self.networkService = networkService
-        networkService.clearSession()
+        //networkService.clearSession()
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -111,31 +111,32 @@ extension HW17GitHubAuthViewController: WKNavigationDelegate {
         guard let userId = parameters["user_id"],
               let accessToken = parameters["access_token"]
         else { return }
-        
+
         networkService.authorize(userId: userId, accessToken: accessToken) { isAuthorized in
-            switch isAuthorized {
-            case true:
-                self.networkService.usersGet { result in
-                    switch result {
-                    case .success(let response):
-                        guard let data = response.response.first else { return }
-                        self.networkService.loadImage(imageUrl: data.photo_200) { iData in
-                            if let iData = iData, let image = UIImage(data: iData) {
-                                DispatchQueue.main.async {
-                                    let controller = HW17ViewController(networkService: self.networkService)
-                                    controller.imageView.image = image
-                                    controller.label.text = "\(data.first_name) \(data.last_name) (ID:\(data.id)"
-                                }
-                            }
-                        }
-                    case .failure(let error):
+            if isAuthorized == false { return }
+        }
+        networkService.usersGet { result in
+            switch result {
+            case .success(let response):
+                guard let data = response.response.first else { return }
+                guard let imageUrl = data.photo_200 else { return }
+                self.networkService.loadImage(imageUrl: imageUrl) { iData in
+                    if let iData = iData, let image = UIImage(data: iData) {
                         DispatchQueue.main.async {
-                            self.showAlert(for: error)
+                            let controller = HW17ViewController(networkService: self.networkService)
+                            controller.imageView.image = image
+                            guard let firstName = data.first_name,
+                                  let lastName = data.last_name,
+                                  let id = data.id else { return }
+                            controller.label.text = "\(firstName) \(lastName) (ID:\(id)"
+                            self.navigationController?.pushViewController(controller, animated: true)
                         }
                     }
                 }
-            case false:
-                return
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self.showAlert(for: error)
+                }
             }
         }
         decisionHandler(.cancel)

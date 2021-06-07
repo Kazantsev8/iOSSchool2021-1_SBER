@@ -29,6 +29,7 @@ class HW17ViewController: UIViewController {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.backgroundColor = .lightGray
+        imageView.layer.cornerRadius = 20
         return imageView
     }()
     
@@ -41,6 +42,7 @@ class HW17ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //loadData()
+        view.backgroundColor = .white
         view.addSubview(imageView)
         view.addSubview(label)
         setConstraints()
