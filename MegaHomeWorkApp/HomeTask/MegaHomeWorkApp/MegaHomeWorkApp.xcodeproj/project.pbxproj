@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C83E3772679D6E9009632FC /* ImageFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83E3762679D6E9009632FC /* ImageFilterService.swift */; };
+		2C83E37A2679DD2A009632FC /* ImageFilterServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83E3792679DD2A009632FC /* ImageFilterServiceProtocol.swift */; };
 		2C9192BA265519A3006C9111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9192B9265519A3006C9111 /* AppDelegate.swift */; };
 		2C9192BE265519A3006C9111 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9192BD265519A3006C9111 /* ViewController.swift */; };
 		2C9192C3265519AB006C9111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9192C2265519AB006C9111 /* Assets.xcassets */; };
@@ -29,9 +31,13 @@
 		2CAB7631266CF62100860122 /* AppServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB7630266CF62100860122 /* AppServiceLocator.swift */; };
 		2CAB7635266CFA1500860122 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB7634266CFA1500860122 /* AppCoordinator.swift */; };
 		2CAB7637266D017700860122 /* HW17GitHubAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB7636266D017700860122 /* HW17GitHubAuthViewController.swift */; };
+		2CAB763F266FF1F100860122 /* HW19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB763E266FF1F000860122 /* HW19ViewController.swift */; };
+		2CAB764626700C9E00860122 /* FiltersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB764526700C9E00860122 /* FiltersCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C83E3762679D6E9009632FC /* ImageFilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterService.swift; sourceTree = "<group>"; };
+		2C83E3792679DD2A009632FC /* ImageFilterServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterServiceProtocol.swift; sourceTree = "<group>"; };
 		2C9192B6265519A3006C9111 /* MegaHomeWorkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaHomeWorkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9192B9265519A3006C9111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9192BD265519A3006C9111 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 		2CAB7630266CF62100860122 /* AppServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServiceLocator.swift; sourceTree = "<group>"; };
 		2CAB7634266CFA1500860122 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		2CAB7636266D017700860122 /* HW17GitHubAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW17GitHubAuthViewController.swift; sourceTree = "<group>"; };
+		2CAB763E266FF1F000860122 /* HW19ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW19ViewController.swift; sourceTree = "<group>"; };
+		2CAB764526700C9E00860122 /* FiltersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C83E3782679DD0F009632FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2C83E3762679D6E9009632FC /* ImageFilterService.swift */,
+				2C83E3792679DD2A009632FC /* ImageFilterServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2C9192AD265519A3006C9111 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +112,7 @@
 				2CAB75E826675B0F00860122 /* MAINMODULE */,
 				2CAB75E626675AC000860122 /* HW13MODULE */,
 				2CAB75F02667742900860122 /* HW17MODULE */,
+				2CAB7640266FF20900860122 /* HW19MODULE */,
 				2C9192C2265519AB006C9111 /* Assets.xcassets */,
 				2C9192C4265519AB006C9111 /* LaunchScreen.storyboard */,
 				2C9192C7265519AB006C9111 /* Info.plist */,
@@ -211,6 +229,32 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2CAB7640266FF20900860122 /* HW19MODULE */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB76442670096D00860122 /* View */,
+				2CAB7641266FF22900860122 /* Controller */,
+				2C83E3782679DD0F009632FC /* Services */,
+			);
+			path = HW19MODULE;
+			sourceTree = "<group>";
+		};
+		2CAB7641266FF22900860122 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB763E266FF1F000860122 /* HW19ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2CAB76442670096D00860122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB764526700C9E00860122 /* FiltersCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,22 +326,26 @@
 			files = (
 				2CAB75F32667BABA00860122 /* HW17NetworkServiceError.swift in Sources */,
 				2C9192D7265ADB35006C9111 /* ThreePointGradientView.swift in Sources */,
+				2CAB764626700C9E00860122 /* FiltersCollectionViewCell.swift in Sources */,
 				2CAB75F9266897AF00860122 /* HW17usersGetResponse.swift in Sources */,
 				2C9192DD265B791C006C9111 /* ElasticView.swift in Sources */,
 				2CAB7637266D017700860122 /* HW17GitHubAuthViewController.swift in Sources */,
 				2CAB75FF2668BAF000860122 /* GitHubUserCell.swift in Sources */,
 				2C9192BE265519A3006C9111 /* ViewController.swift in Sources */,
+				2CAB763F266FF1F100860122 /* HW19ViewController.swift in Sources */,
 				2C9192CE26551C1D006C9111 /* ShareButtonControl.swift in Sources */,
 				2CAB75F72667BD5600860122 /* HW17StaticInfo.swift in Sources */,
 				2C9192DF265B910F006C9111 /* ElasticButton.swift in Sources */,
 				2CAB75EF266773EB00860122 /* HW17VKAuthorizeResponse.swift in Sources */,
 				2CAB75FC2668BA2400860122 /* HW17ViewController.swift in Sources */,
+				2C83E37A2679DD2A009632FC /* ImageFilterServiceProtocol.swift in Sources */,
 				2C9192D0265532B6006C9111 /* ShareActivity.swift in Sources */,
 				2C9192D5265A36F2006C9111 /* LoadingView.swift in Sources */,
 				2CAB75F52667BBE900860122 /* HW17VKNetworkServiceProtocol.swift in Sources */,
 				2CAB7631266CF62100860122 /* AppServiceLocator.swift in Sources */,
 				2CAB7635266CFA1500860122 /* AppCoordinator.swift in Sources */,
 				2C9192BA265519A3006C9111 /* AppDelegate.swift in Sources */,
+				2C83E3772679D6E9009632FC /* ImageFilterService.swift in Sources */,
 				2CAB75ED2667736E00860122 /* HW17VKNetworkService.swift in Sources */,
 				2C9192D9265B674E006C9111 /* HW13ViewController.swift in Sources */,
 			);

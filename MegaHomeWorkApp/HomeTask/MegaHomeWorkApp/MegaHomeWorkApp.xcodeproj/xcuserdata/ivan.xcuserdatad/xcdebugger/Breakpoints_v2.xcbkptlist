@@ -474,7 +474,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 6f232ea760106ca7"
+                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 6f232ea760106c84"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -484,12 +484,12 @@
                   urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "2566">
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "2098">
                </Location>
                <Location
-                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 22ad70288639fd5e"
+                  uuid = "A0869F8A-7ADC-4C14-B7BF-754854AB10FC - 22ad70288639fd3f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -499,8 +499,8 @@
                   urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>
@@ -634,7 +634,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97 - 6f232ea760106d38"
+                  uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97 - 6f232ea760106d19"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -644,12 +644,12 @@
                   urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "119"
-                  endingLineNumber = "119"
-                  offsetFromSymbolStart = "2776">
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2308">
                </Location>
                <Location
-                  uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97 - 3cfd4bb981e6e510"
+                  uuid = "12F880F5-6C8B-478A-8B20-0C9BA1223E97 - 3cfd4bb981e6e531"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -659,8 +659,8 @@
                   urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW17MODULE/ViewController/HW17GitHubAuthViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "121"
-                  endingLineNumber = "121"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
                   offsetFromSymbolStart = "280">
                </Location>
             </Locations>
@@ -696,6 +696,102 @@
             endingLineNumber = "38"
             landmarkName = "usersGet(completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9F7E19E-A382-482B-8E5F-270987BB5FBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/MAINMODULE/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "to19HW()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EF58C63-235F-40CF-9AE0-4D67E6EF8D30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW19MODULE/Controller/HW19ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "287951BA-E6D7-4B92-9911-CB4C0C0A4FFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW19MODULE/Controller/HW19ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA196542-D8D2-4D87-A7B1-2C88E5EA1E2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaHomeWorkApp/HW19MODULE/Controller/HW19ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "selectedImage"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DA196542-D8D2-4D87-A7B1-2C88E5EA1E2D - 1cb80c53ea41062a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.CIFilter&gt;) -&gt; () in MegaHomeWorkApp.HW19ViewController.selectedImage.didset : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "MegaHomeWorkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW19MODULE/Controller/HW19ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "DA196542-D8D2-4D87-A7B1-2C88E5EA1E2D - 1b4378a83e9aaf37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.CIFilter&gt;) -&gt; () in MegaHomeWorkApp.HW19ViewController.selectedImage.didset : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "MegaHomeWorkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Desktop/Study/iOSSchool2021-1_SBER/MegaHomeWorkApp/HomeTask/MegaHomeWorkApp/MegaHomeWorkApp/HW19MODULE/Controller/HW19ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

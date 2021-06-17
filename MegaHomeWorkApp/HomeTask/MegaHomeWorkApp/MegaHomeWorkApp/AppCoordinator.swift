@@ -19,18 +19,23 @@ class AppCoordinator {
         self.serviceLocator = serviceLocator
     }
     
-    func showHW17Controller() {
+    func toHW19() {
+        let vc = HW19ViewController(imageFilterService: serviceLocator.imageFilterService, appCoordinator: self)
+        rootViewController.pushViewController(vc, animated: true)
+    }
+    
+    func toHW17() {
         let vc = HW17ViewController(networkService: serviceLocator.gitHubService)
         rootViewController.pushViewController(vc, animated: true)
     }
     
-    func showHW13Controller() {
+    func toHW13() {
         let vc = HW13ViewController()
         rootViewController.pushViewController(vc, animated: true)
     }
     
     func showMainController() {
-        let vc = ViewController()
+        let vc = ViewController(appCoordinator: self)
         rootViewController.pushViewController(vc, animated: true)
     }
 }

@@ -7,8 +7,11 @@
 
 import Foundation
 
-protocol AppServiceLocatorDependencies: HasGitHubNetworkService {}
+protocol AppServiceLocatorDependencies: HasGitHubNetworkService, HasImageFilterServiceProtocol {}
 
 class AppServiceLocator: AppServiceLocatorDependencies {
+    
     var gitHubService: HW17VKNetworkServiceProtocol = HW17VKNetworkService()
+    var imageFilterService: ImageFilterServiceProtocol = ImageFilterService()
+    
 }

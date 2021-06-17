@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+//MARK: PROPERTIES
+    var appCoordinator: AppCoordinator
+    
 //MARK: INSTANCES
     lazy var shareButton: ShareButtonControl = {
         let control = ShareButtonControl()
@@ -44,6 +47,15 @@ class ViewController: UIViewController {
         return button
     }()
     
+    lazy var homeWork19Button: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .systemYellow
+        button.layer.cornerRadius = 10
+        button.setTitle("HW19", for: .normal)
+        button.addTarget(self, action: #selector(to19HW), for: .touchUpInside)
+        return button
+    }()
+    
     lazy var textField: UITextField = {
         let textField = UITextField()
         textField.center = self.view.center
@@ -61,6 +73,15 @@ class ViewController: UIViewController {
         return view
     }()
     
+//MARK: INIT
+    init(appCoordinator: AppCoordinator) {
+        self.appCoordinator = appCoordinator
+        super.init(nibName: nil, bundle: nil)
+    }
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
 //MARK: VIEW CONTROLLER LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +91,7 @@ class ViewController: UIViewController {
         view.addSubview(button)
         view.addSubview(homeWork13Button)
         view.addSubview(homeWork17Button)
+        view.addSubview(homeWork19Button)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -79,6 +101,7 @@ class ViewController: UIViewController {
         buttonAnimConstraints()
         homeWork17ButtonConstraints()
         homeWork13ButtonConstraints()
+        homeWork19ButtonConstraints()
     }
     
 //MARK: AUTOLAYOUT
@@ -112,7 +135,7 @@ class ViewController: UIViewController {
     
     func homeWork13ButtonConstraints() {
         homeWork13Button.translatesAutoresizingMaskIntoConstraints                                          = false
-        homeWork13Button.bottomAnchor.constraint(equalTo: shareButton.topAnchor, constant: -(CGFloat(hwButtonHeightAndOffset))).isActive = true
+        homeWork13Button.bottomAnchor.constraint(equalTo: shareButton.topAnchor, constant: -(CGFloat(2 * hwButtonHeightAndOffset))).isActive = true
         homeWork13Button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive    = true
         homeWork13Button.widthAnchor.constraint(equalToConstant: 70).isActive                               = true
         homeWork13Button.heightAnchor.constraint(equalToConstant: 70).isActive                              = true
@@ -120,10 +143,18 @@ class ViewController: UIViewController {
     
     func homeWork17ButtonConstraints() {
         homeWork17Button.translatesAutoresizingMaskIntoConstraints                                          = false
-        homeWork17Button.bottomAnchor.constraint(equalTo: shareButton.topAnchor, constant: -20).isActive    = true
+        homeWork17Button.bottomAnchor.constraint(equalTo: shareButton.topAnchor, constant: -(CGFloat(hwButtonHeightAndOffset))).isActive    = true
         homeWork17Button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive    = true
         homeWork17Button.widthAnchor.constraint(equalToConstant: 70).isActive                               = true
         homeWork17Button.heightAnchor.constraint(equalToConstant: 70).isActive                              = true
+    }
+    
+    func homeWork19ButtonConstraints() {
+        homeWork19Button.translatesAutoresizingMaskIntoConstraints                                          = false
+        homeWork19Button.bottomAnchor.constraint(equalTo: shareButton.topAnchor, constant: -20).isActive    = true
+        homeWork19Button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive    = true
+        homeWork19Button.widthAnchor.constraint(equalToConstant: 70).isActive                               = true
+        homeWork19Button.heightAnchor.constraint(equalToConstant: 70).isActive                              = true
     }
     
 //MARK: ANIMATIONS
@@ -149,21 +180,6 @@ class ViewController: UIViewController {
     @objc func transitionAnimate() {
         button.layer.removeAllAnimations()
     }
-    
-//    @objc func animate() {
-//        UIView.animate(withDuration: 0.2,
-//                       delay: 0,
-//                       animations: {
-//                        self.button.transform = .init(scaleX: 0.9, y: 0.9)
-//                       })
-//        UIView.animate(withDuration: 1,
-//                       delay: 0.2,
-//                       usingSpringWithDamping: 0.2,
-//                       initialSpringVelocity: 30,
-//                       animations: {
-//                        self.button.transform = .init(scaleX: 1, y: 1)
-//                       })
-//    }
 
 //MARK: METHODS
     @objc func share(_ sender: ShareButtonControl) {
@@ -194,5 +210,8 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(controller, animated: true)
     }
     
+    @objc func to19HW() {
+        appCoordinator.toHW19()
+    }
 }
 
