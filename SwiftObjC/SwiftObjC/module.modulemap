@@ -1,0 +1,17 @@
+//
+//  module.modulemap
+//  SwiftObjC
+//
+//  Created by Иван Казанцев on 05.07.2021.
+//
+
+module ObjcLibraryModule {
+    header "../ObjcLibrary/Umbrella.h"
+    
+    explicit module SecondObjcLibraryModule {
+        header "../SecondObjcLibrary/SecondUmbrella.h"
+        export *
+    }
+    
+    export *
+}
